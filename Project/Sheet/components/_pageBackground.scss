@@ -1,0 +1,24 @@
+.background{
+    background-image: url('../ancient.jpg');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.middle{
+    text-align: center;
+    border-style: solid;
+    border-radius: 100px;
+    border-color: white;
+    p{
+        color: $ParagraphColors;
+
+    }
+    h2{
+        color: $ParagraphColors;
+    }
+}
